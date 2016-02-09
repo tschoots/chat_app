@@ -7,5 +7,6 @@ EXPOSE 8080
 WORKDIR /app
 
 COPY chat /app/
+COPY templates/* /app/templates/
 
 ENTRYPOINT ["./chat"]
